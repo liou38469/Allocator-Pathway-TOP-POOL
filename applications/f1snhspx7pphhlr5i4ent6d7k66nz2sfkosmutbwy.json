@@ -1,0 +1,49 @@
+{
+  "Version": 1,
+  "ID": "f1snhspx7pphhlr5i4ent6d7k66nz2sfkosmutbwy",
+  "Issue Number": "1",
+  "Client": {
+    "Name": "Commoncrawl",
+    "Region": "United States",
+    "Industry": "Life Science / Healthcare",
+    "Website": "https://commoncrawl.org/",
+    "Social Media": "https://commoncrawl.org/",
+    "Social Media Type": "Twitter",
+    "Role": "Dataset Owner"
+  },
+  "Project": {
+    "Project Id": "DATADAO-01",
+    "Brief history of your project and organization": "DATADAO is built upon technical expertise and utilizes proprietary programs and advanced tools to provide customized car data packaging services to clients. Our team boasts extensive experience and proficiency in utilizing cutting-edge tools such as go-graphsplit and singularity to ensure efficient and accurate data packaging. Our service process encompasses the following key points:\r\n\r\nTechnical Expertise: Our team possesses rich technical expertise in utilizing advanced tools. By leveraging tools like go-graphsplit and singularity, we ensure the efficiency and accuracy of data packaging. These tools aid us in processing and packaging client-provided data to meet the storage requirements of the Filecoin network.\r\n\r\nData Processing Flow: We employ proprietary programs to segment, package, and compress client-provided data, ultimately generating ZIP files ranging from 28-32GB in size to align with the storage requirements of the Filecoin network. Through these services, we effectively assist clients in processing and preparing data for storage and usage on the Filecoin network.",
+    "Is this project associated with other projects/ecosystem stakeholders?": "No",
+    "Describe the data being stored onto Filecoin": "Common Crawl maintains a free, open repository of web crawl data that can be used by anyone.\r\nPrimary training corpus in every LLM.82% of raw tokens used to train GPT-3.Free and open corpus since 2007.Cited in over 8000 research papers.3–5 billion new pages added each month.",
+    "Where was the data currently stored in this dataset sourced from": "AWS Cloud",
+    "How do you plan to prepare the dataset": "Yes，I am data preparer, DATADAO have technical team that specializes in providing Car data packaging services to our clients, which include: 1. technical expertise: our team is skilled in using advanced tools such as go-graphsplit, singularity, etc. to ensure efficient and accurate data packaging. 2. Data Processing Flow: We use self-developed programs to cut, package, and compress the data provided by our clients into 28-32GB zip files to meet the storage requirements of the Filecoin network. Through these services, we are able to effectively help our clients process and prepare data for storage and use on the Filecoin network.",
+    "Please share a sample of the data (a link to a file, an image, a table, etc., are good ways to do this.)": "357-resule \r\n2020-08-25 17:22:47  398.4 MiB hrrr_v2.20160823/conus/hrrr.t09z.wrfprsf13.grib2\r\n2020-08-25 17:22:52  396.0 MiB hrrr_v2.20160823/conus/hrrr.t09z.wrfprsf14.grib2\r\n2020-08-25 17:22:52  394.6 MiB hrrr_v2.20160823/conus/hrrr.t09z.wrfprsf15.grib2\r\n2020-08-25 17:22:52  390.2 MiB hrrr_v2.20160823/conus/hrrr.t09z.wrfprsf16.grib2\r\n2020-08-25 17:23:08  387.1 MiB hrrr_v2.20160823/conus/hrrr.t09z.wrfprsf17.grib2\r\n2020-08-25 17:23:05  384.8 MiB hrrr_v2.20160823/conus/hrrr.t09z.wrfprsf18.grib2\r\n2021-09-28 03:48:22   31.6 KiB index.html\r\n\r\nTotal Objects: 43282174\r\n   Total Size: 2.1 PiB",
+    "Confirm that this is a public dataset that can be retrieved by anyone on the network (i.e., no specific permissions or access rights are required to view the data)": "[X] I confirm",
+    "What is the expected retrieval frequency for this data": "Yearly",
+    "For how long do you plan to keep this dataset stored on Filecoin": "2 to 3 years",
+    "In which geographies do you plan on making storage deals": "Greater China, Asia other than Greater China, Africa, North America, Europe",
+    "How will you be distributing your data to storage providers": "Cloud storage (i.e. S3), HTTP or FTP server, Shipping hard drives, Lotus built-in data transfer",
+    "Please list the provider IDs and location of the storage providers you will be working with. Note that it is a requirement to list a minimum of 5 unique provider IDs, and that your client address will be verified against this list in the future": "[{\"providerID\":\"f02850067\",\"City\":\"HongKong\",\"Country\":\"china\",\"SPOrg\",\"datastone\"},\r\n{\"providerID\":\"f01992563\",\"City\":\"XYZ\",\"Country\":\"china\",\"SPOrg\",\"SAcloud\"},\r\n{\"providerID\":\"f01996719\",\"City\":\"XYZ\",\"Country\":\"china\",\"SPOrg\",\"SAcloud\"},\r\n{\"providerID\":\"f01996817\",\"City\":\"XYZ\",\"Country\":\"china\",\"SPOrg\",\"SAcloud\"},\r\n{\"providerID\":\"f02812304\",\"City\":\"XYZ\",\"Country\":\"Singapore\",\"SPOrg\",\"SY-Tech\"},\r\n{\"providerID\":\"f02320270\",\"City\":\"XYZ\",\"Country\":\"US\",\"SPOrg\",\"R1\"},]",
+    "Can you confirm that you will follow the Fil+ guideline (Data owner should engage at least 4 SPs and no single SP ID should receive >30% of a client's allocated DataCap)": "Yes"
+  },
+  "Datacap": {
+    "Type": "ldn-v3",
+    "Data Type": "Slingshot",
+    "Total Requested Amount": "12PiB",
+    "Single Size Dataset": "2PiB",
+    "Replicas": 6,
+    "Weekly Allocation": "1PiB"
+  },
+  "Lifecycle": {
+    "State": "Submitted",
+    "Validated At": "",
+    "Validated By": "",
+    "Active": true,
+    "Updated At": "2024-03-26 20:21:38.489356803 UTC",
+    "Active Request ID": "",
+    "On Chain Address": "f1snhspx7pphhlr5i4ent6d7k66nz2sfkosmutbwy",
+    "Multisig Address": "false"
+  },
+  "Allocation Requests": []
+}
