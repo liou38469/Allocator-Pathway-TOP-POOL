@@ -1,0 +1,49 @@
+{
+  "Version": "1.3",
+  "ID": "f1smxm5y2o2jeyqiekgxc2vtxgdxzelr52uyr44ji",
+  "Issue Number": "73",
+  "Client": {
+    "Name": "Community Earth System Model v2 ARISE",
+    "Region": "United States",
+    "Industry": "Life Science / Healthcare",
+    "Website": "https://ncar.ucar.edu/；https://www.youtube.com/ncarucar;https://www.cesm.ucar.edu/community-projects/arise-sai",
+    "Social Media": "https://ncar.ucar.edu/；https://www.youtube.com/ncarucar",
+    "Social Media Type": "Twitter",
+    "Role": "Data Preparer"
+  },
+  "Project": {
+    "Brief history of your project and organization": "ARISE-SAI-1.5 simulations include extensive output for the atmospheric, land, ocean and sea-ice model components. All model output for the simulations is in NetCDF format. All variables are in time-series format, with one variable per file. 3-dimensional atmospheric output is on the original 70 model levels. Output consists of standard monthly mean CMIP6 output for the atmospheric, land, ocean, and sea-ice models. In addition, higher-frequency (daily averaged, 3-hourly averaged, 3-hourly instantaneous, and 1-hourly mean) output is available for the atmospheric model. A listing of all output variables is available",
+    "Is this project associated with other projects/ecosystem stakeholders?": "No",
+    "Describe the data being stored onto Filecoin": "ARISE-SAI-1.5 simulations include extensive output for the atmospheric, land, ocean and sea-ice model components. All model output for the simulations is in NetCDF format. All variables are in time-series format, with one variable per file. 3-dimensional atmospheric output is on the original 70 model levels. Output consists of standard monthly mean CMIP6 output for the atmospheric, land, ocean, and sea-ice models. In addition, higher-frequency (daily averaged, 3-hourly averaged, 3-hourly instantaneous, and 1-hourly mean) output is available for the atmospheric model. A listing of all output variables is available \r\nSolar climate intervention using stratospheric aerosol injection is a proposed method of reducing global mean temperatures in order to avoid the worst consequences of climate change. Assessing Responses and Impacts of Solar climate intervention on the Earth system with Stratospheric Aerosol Injection (ARISE-SAI) is a set of simulations carried out with the Community Earth System Model, version 2 with the Whole Atmosphere Community Climate Model, version 6 (CESM2(WACCM6)) that aims at simulating a plausible deployment of solar climate intervention of stratospheric aerosol injection to enable community assessment of responses of the Earth system. The first set of simulations introduce stratospheric aerosol injection at ~ 21 km in simulated year 2035, called ARISE-SAI-1.5, utilize the middle-of-the-road SSP2-4.5 emission scenario, and keep global mean surface air temperature near 1.5°C above the pre-industrial value. Sulfur dioxide injections in the ARISE-SAI-1.5 simulations are placed at four injection locations (15°S, 15°N, 30°S, 30°N) into one grid box at 180° longitude, and midpoint altitude of 21.6 km. The injection amount at each latitude is specified annually by a “controller” algorithm (MacMartin et al. 2014, Kravitz et al. 2017) that was used in the Stratospheric Aerosol Geoengineering Large Ensemble (GLENS) project. This strategy ensures that the global mean surface temperature (T0), north-south temperature gradient (T1), and equator-to-pole temperature gradient (T2) remain close to ~ 1.5°C above the pre-industrial value throughout the simulation. A second set of simulations, called ARISE-SAI-1.5-2045, utilizes the same simulation set up but commences stratospheric aerosol injection in simulated year 2045. The third set of simulations, introduces stratospheric aerosol injections in simulated year 2034, and targets a global mean surface air temperature near 1.0°C above the pre-industrial value, called ARISE-SAI-1.0.",
+    "Where was the data currently stored in this dataset sourced from": "AWS Cloud",
+    "How do you plan to prepare the dataset": "No response",
+    "Please share a sample of the data (a link to a file, an image, a table, etc., are good ways to do this.)": "https://registry.opendata.aws/ncar-cesm2-arise/",
+    "Confirm that this is a public dataset that can be retrieved by anyone on the network (i.e., no specific permissions or access rights are required to view the data)": "[X] I confirm",
+    "What is the expected retrieval frequency for this data": "Yearly",
+    "For how long do you plan to keep this dataset stored on Filecoin": "1.5 to 2 years",
+    "In which geographies do you plan on making storage deals": "Greater China, Asia other than Greater China, North America, Europe",
+    "How will you be distributing your data to storage providers": "Cloud storage (i.e. S3), HTTP or FTP server, Shipping hard drives",
+    "Please list the provider IDs and location of the storage providers you will be working with. Note that it is a requirement to list a minimum of 5 unique provider IDs, and that your client address will be verified against this list in the future": "f02865213 United States\r\nf02887063 United States\r\nf02927642 Vietnam\r\nf02953218 Russia",
+    "Can you confirm that you will follow the Fil+ guideline (Data owner should engage at least 4 SPs and no single SP ID should receive >30% of a client's allocated DataCap)": "Yes"
+  },
+  "Datacap": {
+    "Type": "ldn-v3",
+    "Data Type": "Slingshot",
+    "Total Requested Amount": "8PiB",
+    "Single Size Dataset": "1PiB",
+    "Replicas": 8,
+    "Weekly Allocation": "1PiB"
+  },
+  "Lifecycle": {
+    "State": "Submitted",
+    "Validated At": "",
+    "Validated By": "",
+    "Active": true,
+    "Updated At": "2024-12-27 09:50:13.964824710 UTC",
+    "Active Request ID": "",
+    "On Chain Address": "f1smxm5y2o2jeyqiekgxc2vtxgdxzelr52uyr44ji",
+    "Multisig Address": "false",
+    "edited": false
+  },
+  "Allocation Requests": []
+}
